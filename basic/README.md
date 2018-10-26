@@ -1,6 +1,6 @@
 
 Anatasyonlar:
-
+```
 +--------------+--------------------------------------------------------------------------------------------------------------------------------+
 | @BeforeClass | Nesne oluşmadan önce çalışır.(Spring nesneleri oluşmadan çalışır). Tüm testlerin calisması sırasında yalnızca bir kere calisir |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------+
@@ -10,8 +10,11 @@ Anatasyonlar:
 +--------------+--------------------------------------------------------------------------------------------------------------------------------+
 | @AfterClass  | Tüm testler bittikten sonra çalışır.                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------+
+```
+
 
 Komutlar:
+```
 | Kod:                                                | Tanım                                                                 |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | fail(String)                                        | Kodun tamamın çalışmadığını kontrol eder.                                                                  |
@@ -23,6 +26,6 @@ Komutlar:
 | assertSame(message, expected, actual)               | expected ve actual nesnelerinin aynı nesneler olduğunu kontrol eder.                                       |
 | assertNotSame(message, expected, actual)            | expected ve actual nesnelerinin aynı nesneler olmadığını kontrol eder.                                     |
 | assertTrue(message, boolean condition)              | condition’ın true olduğunu kontrol eder. Değilse message’ı gösterir.                                       |
-
+```
 
 
